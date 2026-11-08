@@ -1,0 +1,16 @@
+# Community conduct
+
+## R-01 | Random deathmatch (RDM)
+Do not attack or kill another character without a valid in-character reason and a roleplay interaction leading up to the attack.
+
+## R-02 | Vehicle deathmatch (VDM)
+Do not use a vehicle as a weapon against players. A vehicle may be used to escape if the route avoids deliberately striking another character.
+
+## R-03 | Metagaming
+Do not use information obtained outside the game, including streams and external voice chats, to make in-character decisions.
+
+## R-04 | Combat logging
+Do not disconnect to avoid an active roleplay scene. If you lose connection, rejoin as soon as possible and contact staff if the scene cannot resume.
+
+## R-05 | New life rule
+After respawning at the hospital, your character must forget the events that led to their death and stay away from the scene for 15 minutes.

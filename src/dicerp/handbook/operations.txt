@@ -1,0 +1,13 @@
+# Scene and staff procedures
+
+## R-06 | Robberies
+A store robbery requires at least two on-duty police officers. A bank robbery requires at least four on-duty police officers.
+
+## R-07 | Safe zones
+Hospitals and police station public lobbies are safe zones. Do not initiate robberies, kidnappings, or violent scenes in these areas.
+
+## R-08 | Staff reports
+Use the in-game report command for urgent rule violations. Include the time, a brief description, and the character names involved.
+
+## R-09 | Character value of life
+Act as if your character's life matters. Comply with reasonable demands when a weapon is aimed at your character and there is no credible escape.

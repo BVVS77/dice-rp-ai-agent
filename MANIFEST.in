@@ -1,0 +1,5 @@
+include streamlit_app.py
+include .streamlit/config.toml
+include .env.example
+recursive-include docs *.md
+include TEST_REPORT.md

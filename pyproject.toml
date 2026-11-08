@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=75,<83"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dice-rp-ai-agent"
+version = "0.1.0"
+readme = "README.md"
+description = "Evidence-grounded AI assistant for a fictional FiveM roleplay server"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "httpx>=0.28,<1",
+    "openai>=2,<3",
+    "pydantic>=2.11,<3",
+    "pydantic-settings>=2.8,<3",
+    "sqlalchemy>=2.0,<3",
+    "streamlit>=1.45,<2",
+    "uvicorn>=0.34,<1",
+]
+
+[project.optional-dependencies]
+dev = ["build>=1.2,<2", "httpx2>=2.13,<3", "mypy>=1.15,<2", "pytest>=8.3,<10", "ruff>=0.11,<1"]
+
+[project.scripts]
+dicerp = "dicerp.cli:main"
+
+[tool.setuptools.package-data]
+dicerp = ["handbook/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+    "live: opt-in tests that call the real OpenAI API",
+    "ollama_live: opt-in tests that use real local Ollama models",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
